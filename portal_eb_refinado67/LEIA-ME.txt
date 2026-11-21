@@ -1,0 +1,27 @@
+PORTAL EB — VERSÃO REFINADA
+
+COMO PUBLICAR
+1. Extraia o ZIP.
+2. Envie o conteúdo da pasta para o repositório GitHub.
+3. Para Render Static Site, use:
+   - Build Command: deixe vazio
+   - Publish Directory: .
+4. Se colocar esta pasta dentro de outra pasta no GitHub, informe o caminho dela em Publish Directory.
+
+ARQUIVOS
+- index.html: página inicial
+- institucional.html: apresentação do projeto
+- hierarquia.html: grupos e patentes
+- promocoes.html: formulário demonstrativo
+- regulamento.html: orientações gerais
+- avisos.html: central de comunicados
+- contato.html: acesso à comunidade
+- style.css: visual, responsividade e animações
+- script.js: navegação, animações e formulário
+- favicon.svg: ícone do portal
+
+IMPORTANTE
+O formulário de promoção é apenas demonstrativo e salva os registros no armazenamento local do navegador. Ele não altera patentes no Roblox nem sincroniza cargos do Discord.
+Para isso, será necessário desenvolver um backend seguro, autenticação e integração apropriada. Não coloque tokens ou chaves secretas no JavaScript do navegador.
+Os avisos ainda não são publicados automaticamente pelo Discord.
+Este é um projeto comunitário independente dentro do Roblox e não representa um canal oficial do Exército Brasileiro ou do Governo Federal.
